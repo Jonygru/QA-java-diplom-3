@@ -47,7 +47,7 @@ public class TestLogout {
     }
 
     @Test
-    public  void testSLoginOnButtonYourAccount(){
+    public  void testSLogout(){
         HeaderPageObject headerPageObject = new HeaderPageObject(driver);
         headerPageObject.clickOnButtonPersonalAccoun();
         PersonalAccountPageObject personalAccountPageObject = new PersonalAccountPageObject(driver);
